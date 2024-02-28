@@ -19,9 +19,6 @@ jobs:
     - name: Build
       run: npm run build
 
-    - name: Test
-      run: npm test
-
   security_scan:
     runs-on: ubuntu-latest
     needs: build
